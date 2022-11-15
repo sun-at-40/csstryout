@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <title>Animation</title>
+ <style>
+  @keyframes testing {
+   from {
+    margin-left: 100%;
+    /* width: 300%; */
+  }
+
+  to {
+    margin-left: 0%;
+    /* width: 100%; */
+  }
+   
+  }
+ </style>
+</head>
+<body>
+ <div class="w-full h-full bg-gray-200">
+  <h1>Animation Try out!</h1>
+  <div class="w-24 h-24  bg-red-400 rounded-full shadow-sm" style="
+  animation-duration: 3s;
+  animation-name: testing;
+  animation-iteration-count: 3;
+  animation-direction: alternate">
+
+  </div>
+ </div>
+ 
+</body>
+</html>
